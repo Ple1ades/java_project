@@ -1,9 +1,11 @@
+package testRobot;
 import java.util.function.DoubleSupplier;
 
 public class Robot {
-    Motor RMotor = new Motor();
-    Motor LMotor = new Motor();
-    Motor[] ArrayOfMotors = {RMotor,Lmotor};
+    
+    Motor RMotor = new Motor(0);
+    Motor LMotor = new Motor(0);
+    Motor[] ArrayOfMotors = {RMotor,LMotor};
     
     public void move(int lSpeed, int rSpeed){
         RMotor.setSpeed(rSpeed);

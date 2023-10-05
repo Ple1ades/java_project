@@ -1,6 +1,8 @@
+package testRobot;
+
 public class Motor {
     public int speed = 0;
-    Motor(int initialSpeed){
+    public Motor(int initialSpeed){
         this.speed = initialSpeed;
         // yadda yadda yadda
     }
